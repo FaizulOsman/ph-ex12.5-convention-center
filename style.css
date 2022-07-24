@@ -1,0 +1,250 @@
+/* Link With Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --primary-color: #0d6efd;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 2em;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 2em;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+h4 {
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1em;
+}
+
+/* =====================================================
+=================== Slider Section ====================
+======================================================*/
+.carousel-item p {
+    max-width: 456px;
+    margin: 0 auto;
+}
+
+
+/* =====================================================
+=================== Blog Section ====================
+======================================================*/
+.blog-section {
+    position: relative;
+}
+
+.toast {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    border-left: 5px solid var(--primary-color);
+}
+
+.fa-gift {
+    color: var(--primary-color);
+    padding-right: 5px;
+}
+
+
+/* =====================================================
+=================== Pricing Section ====================
+======================================================*/
+.pricing .card {
+    border: none;
+}
+
+.pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 0;
+}
+
+.fa-ul {
+    margin-left: var(--fa-li-margin, 1.5em) !important;
+}
+
+.pricing hr {
+    margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+
+.pricing .card-price {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.pricing .card-price .period {
+    font-size: 0.8rem;
+}
+
+.pricing ul li {
+    margin-bottom: 1rem;
+    /* list-style: none; */
+}
+
+.pricing .text-muted {
+    opacity: 0.7;
+}
+
+.pricing .btn {
+    font-size: 80%;
+    border: none;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+.card-hot {
+    background-color: #0d6efd;
+    color: white;
+    margin-top: -20px;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+
+.card>span {
+    width: 45px;
+    height: 27px;
+    align-items: center;
+    border-radius: 14px;
+    margin-top: -10px;
+    margin-left: 70%;
+}
+
+.pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+}
+
+.pricing .card:hover .btn {
+    opacity: 1;
+    background-color: var(--primary-color);
+    color: white !important;
+}
+
+.pricing .card-hot:hover .btn {
+    opacity: 1;
+    background-color: #fff;
+    color: var(--primary-color) !important;
+}
+
+
+
+
+/* =====================================================
+=================== Pricing Section ====================
+======================================================*/
+.happy-clients .card {
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    border: none;
+}
+
+.happy-clients .card h5 {
+    font-weight: 600;
+}
+
+
+
+/* =====================================================
+=================== Footer Section ====================
+======================================================*/
+footer {
+    background: #0B0D17;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .carousel-item h1 {
+        font-size: 1.5em;
+    }
+
+    .carousel-item p {
+        font-size: .7em;
+    }
+
+    .carousel-item button {
+        padding: 5px 10px !important;
+        margin: 5px !important;
+    }
+
+    .carousel-item img {
+        height: 320px !important;
+    }
+
+    .ques-img img {
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .card-hot {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .navbar-brand {
+        font-size: 1em;
+        width: 50%;
+    }
+
+    .footer-area {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .get-app img {
+        max-width: 150px;
+    }
+}
